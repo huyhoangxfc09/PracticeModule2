@@ -1,15 +1,18 @@
 package Demo;
 
+import java.util.Scanner;
+
 public class CheckPrime {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter test value");
+        int value = scanner.nextInt();
         int count = 0;
-        int number =0;
-        while (count<20){
-            if(checkPrime(number)){
+        for (int i = 0; i <=value; i++) {
+            if (checkPrime(i)){
                 count++;
-                System.out.println("Element "+count+" => "+number);
+                System.out.println("Element "+count+ " => "+i);
             }
-            number++;
         }
     }
     public static boolean checkPrime(int number){

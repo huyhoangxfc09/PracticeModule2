@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/StopWatch/StopWatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fan/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fan/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quadratic/Quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quadratic/Quadratic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Fan">
+  <component name="RunManager" selected="Application.StopWatch">
     <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fan.Fan" />
       <module name="PracticeModule2" />
@@ -89,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StopWatch.StopWatch" />
+      <module name="PracticeModule2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StopWatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TotalDiagonalsMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo.TotalDiagonalsMatrix" />
       <module name="PracticeModule2" />
@@ -104,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StopWatch" />
         <item itemvalue="Application.Fan" />
         <item itemvalue="Application.TotalDiagonalsMatrix" />
         <item itemvalue="Application.Quadratic" />
@@ -125,7 +140,7 @@
       <workItem from="1670238716544" duration="2228000" />
       <workItem from="1670288513034" duration="19000" />
       <workItem from="1670288921357" duration="22382000" />
-      <workItem from="1670374864530" duration="8090000" />
+      <workItem from="1670374864530" duration="10350000" />
     </task>
     <servers />
   </component>

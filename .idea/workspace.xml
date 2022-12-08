@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BuildClass/BuildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuildClass/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Production/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Production/ManageProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Production/Production.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticMethod/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticMethod/TestStaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StaticProperty/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StaticProperty/TestStaticProperty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fan/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fan/Fan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StopWatch/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StopWatch/StopWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestStaticProperty">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo.Demo" />
       <module name="PracticeModule2" />
@@ -82,13 +74,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StopWatch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StopWatch" />
-      <module name="PracticeModule2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestStaticProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticProperty.TestStaticProperty" />
+      <module name="PracticeModule2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StaticProperty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStaticProperty" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestStaticMethod" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.StopWatch (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +144,7 @@
       <workItem from="1670374864530" duration="11415000" />
       <workItem from="1670401310962" duration="5945000" />
       <workItem from="1670463029674" duration="16360000" />
-      <workItem from="1670499092595" duration="4371000" />
+      <workItem from="1670499092595" duration="5095000" />
     </task>
     <servers />
   </component>

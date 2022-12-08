@@ -34,8 +34,7 @@ public class StopWatch {
         this.endTime = System.currentTimeMillis();
     }
     public long getElapsedTime(){
-        long result = this.endTime-this.starTime;
-        return result;
+        return endTime-starTime;
     }
 
     public static void main(String[] args) throws InterruptedException {

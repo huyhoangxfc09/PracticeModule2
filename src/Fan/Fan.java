@@ -61,6 +61,7 @@ public class Fan {
         return result;
     }
 
+
     public static void main(String[] args) {
        Fan fan = new Fan();
        System.out.println(fan.toString());

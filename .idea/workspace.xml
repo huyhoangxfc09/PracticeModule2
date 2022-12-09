@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Circle/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest1/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest1/MainTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManager/OptionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManager/StudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +55,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Circle">
-    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Circle.Circle" />
+  <component name="RunManager" selected="Application.OptionManager">
+    <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo.Demo" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Circle.*" />
+          <option name="PATTERN" value="Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Production.Main" />
+    <configuration name="Demo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo.Demo" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Production.*" />
+          <option name="PATTERN" value="Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BuildClass.Test" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiniTest1.MainTest" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BuildClass.*" />
+          <option name="PATTERN" value="MiniTest1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticMethod.TestStaticMethod" />
+    <configuration name="MainTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiniTest1.MainTest2" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StaticMethod.*" />
+          <option name="PATTERN" value="MiniTest1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticProperty.TestStaticProperty" />
+    <configuration name="OptionManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentManager.OptionManager" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StaticProperty.*" />
+          <option name="PATTERN" value="StudentManager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Circle" />
-        <item itemvalue="Application.TestStaticProperty" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestStaticMethod" />
+        <item itemvalue="Application.OptionManager" />
+        <item itemvalue="Application.MainTest2" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.Demo (3)" />
+        <item itemvalue="Application.Demo (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +148,10 @@
       <workItem from="1670374864530" duration="11415000" />
       <workItem from="1670401310962" duration="5945000" />
       <workItem from="1670463029674" duration="16360000" />
-      <workItem from="1670499092595" duration="6140000" />
+      <workItem from="1670499092595" duration="6439000" />
+      <workItem from="1670549210625" duration="11194000" />
+      <workItem from="1670584055417" duration="659000" />
+      <workItem from="1670591893151" duration="10358000" />
     </task>
     <servers />
   </component>

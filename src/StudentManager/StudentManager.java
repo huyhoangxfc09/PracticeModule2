@@ -1,6 +1,7 @@
 package StudentManager;
 
 public class StudentManager {
+    private int id;
     private String name;
     private int age;
     private  String gender;
@@ -10,12 +11,21 @@ public class StudentManager {
     public StudentManager() {
     }
 
-    public StudentManager(String name, int age, String gender, String location, int soccer) {
+    public StudentManager(int id,String name, int age, String gender, String location, int soccer) {
+        this.id = id;
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.location = location;
         this.soccer = soccer;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -61,7 +71,8 @@ public class StudentManager {
     @Override
     public String toString() {
         return "StudentManager{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
                 ", location='" + location + '\'' +

@@ -15,6 +15,7 @@ public class OptionManager {
             System.out.println("5. Search gender student.");
             System.out.println("6. Add student.");
             System.out.println("7. Delete students by.");
+            System.out.println("8. Exit students by Id.");
             System.out.println("0. Exit.");
             System.out.println("Enter your selection: ");
             int choice = Integer.parseInt(scanner.nextLine());
@@ -44,6 +45,9 @@ public class OptionManager {
                 case 7:
                     deleteByNameStudent(listStudentManager, scanner);
                     break;
+                case 8:
+                    exitById(listStudentManager, scanner);
+                    break;
                 case 0:
                     System.exit(0);
             }
@@ -59,6 +63,7 @@ public class OptionManager {
 
     public static void creatStudentManager(StudentManager[] student, Scanner scanner) {
         for (int i = 0; i < student.length; i++) {
+            int id = i+1;
             System.out.println("Enter name student rank " + (i + 1));
             String name = scanner.nextLine();
             System.out.println("Enter age student rank  " + (i + 1));
@@ -69,7 +74,7 @@ public class OptionManager {
             String location = scanner.nextLine();
             System.out.println("Enter soccer student rank  " + (i + 1));
             int soccer = Integer.parseInt(scanner.nextLine());
-            student[i] = new StudentManager(name, age, gender, location, soccer);
+            student[i] = new StudentManager(id,name,age,gender,location,soccer);
         }
         for (StudentManager tempt : student) {
             System.out.println(tempt);
@@ -151,6 +156,7 @@ public class OptionManager {
     public static void addStudent(StudentManager[] studentManagers, Scanner scanner) {
         StudentManager[] addStudent = new StudentManager[studentManagers.length + 1];
         System.arraycopy(studentManagers, 0, addStudent, 0, studentManagers.length);
+        int id = addStudent.length;
         System.out.println("Enter name student rank ");
         String name = scanner.nextLine();
         System.out.println("Enter age student rank  ");
@@ -161,7 +167,7 @@ public class OptionManager {
         String location = scanner.nextLine();
         System.out.println("Enter soccer student rank  ");
         int soccer = Integer.parseInt(scanner.nextLine());
-        addStudent[addStudent.length - 1] = new StudentManager(name, age, gender, location, soccer);
+        addStudent[addStudent.length - 1] = new StudentManager(id,name,age,gender,location,soccer);
         for (StudentManager student : addStudent) {
             System.out.println(student);
         }
@@ -180,6 +186,28 @@ public class OptionManager {
         }
         System.arraycopy(studentManagers, 0, deleteStudent, 0, deleteStudent.length);
         for (StudentManager student : deleteStudent) {
+            System.out.println(student);
+        }
+    }
+    public static void exitById(StudentManager[]studentManagers,Scanner scanner){
+        System.out.println("Enter Id exit:");
+        int id =Integer.parseInt(scanner.nextLine());
+        System.out.println("Enter name student rank  "+id);
+        String name = scanner.nextLine();
+        System.out.println("Enter age student rank  "+id);
+        int age = Integer.parseInt(scanner.nextLine());
+        System.out.println("Enter gender student rank  "+id);
+        String gender = scanner.nextLine();
+        System.out.println("Enter location student rank  "+id);
+        String location = scanner.nextLine();
+        System.out.println("Enter soccer student rank  "+id);
+        int soccer = Integer.parseInt(scanner.nextLine()+id);
+        for (int i = 0; i < studentManagers.length; i++) {
+            if(i==(id-1)){
+                studentManagers[i]= new StudentManager(id,name,age,gender,location,soccer);
+            }
+        }
+        for (StudentManager student:studentManagers) {
             System.out.println(student);
         }
     }

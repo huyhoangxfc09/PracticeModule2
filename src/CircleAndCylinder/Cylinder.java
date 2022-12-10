@@ -47,6 +47,6 @@ public class Cylinder extends Circle{
         String color = scanner.nextLine();
         cylinder =new Cylinder(radius,color,height);
         System.out.println(cylinder);
-        System.out.println(cylinder.getCylindricalVolume());
+        System.out.println("Cylindrical Volume = "+cylinder.getCylindricalVolume());
     }
 }

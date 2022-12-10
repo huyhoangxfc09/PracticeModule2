@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Coordinates/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Coordinates/Point3D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentManager/OptionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentManager/OptionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentManager/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentManager/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coordinates/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coordinates/Point3D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,26 +55,13 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionManager">
+  <component name="RunManager" selected="Application.Point3D">
     <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Shape.Circle" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Shape.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircleAndCylinder.Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CircleAndCylinder.Circle" />
-      <module name="PracticeModule2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CircleAndCylinder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Point3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Coordinates.Point3D" />
+      <module name="PracticeModule2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Coordinates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Point3D" />
         <item itemvalue="Application.OptionManager" />
         <item itemvalue="Application.Point2D" />
         <item itemvalue="Application.Cylinder" />
         <item itemvalue="Application.Circle" />
-        <item itemvalue="Application.CircleAndCylinder.Circle" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +152,7 @@
       <workItem from="1670549210625" duration="11194000" />
       <workItem from="1670584055417" duration="659000" />
       <workItem from="1670591893151" duration="15897000" />
-      <workItem from="1670657434627" duration="11193000" />
+      <workItem from="1670657434627" duration="12286000" />
     </task>
     <servers />
   </component>

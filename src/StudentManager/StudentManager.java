@@ -6,12 +6,12 @@ public class StudentManager {
     private int age;
     private  String gender;
     private String location;
-    private int soccer;
+    private double soccer;
 
     public StudentManager() {
     }
 
-    public StudentManager(int id,String name, int age, String gender, String location, int soccer) {
+    public StudentManager(int id,String name, int age, String gender, String location, double soccer) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -60,11 +60,11 @@ public class StudentManager {
         this.location = location;
     }
 
-    public int getSoccer() {
+    public double getSoccer() {
         return soccer;
     }
 
-    public void setSoccer(int soccer) {
+    public void setSoccer(double soccer) {
         this.soccer = soccer;
     }
 

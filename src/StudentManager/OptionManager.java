@@ -69,7 +69,7 @@ public class OptionManager {
             System.out.println("Enter location student rank  " + (i + 1));
             String location = scanner.nextLine();
             System.out.println("Enter soccer student rank  " + (i + 1));
-            int soccer = Integer.parseInt(scanner.nextLine());
+            double soccer = Double.parseDouble(scanner.nextLine());
             student[i] = new StudentManager(id,name,age,gender,location,soccer);
         }
         for (StudentManager tempt : student) {
@@ -78,7 +78,7 @@ public class OptionManager {
     }
 
     public static void maxSoccerStudent(StudentManager[] studentManagers) {
-        int max = studentManagers[0].getSoccer();
+        double max = studentManagers[0].getSoccer();
         for (int i = 1; i < studentManagers.length; i++) {
             if (max < studentManagers[i].getSoccer()) {
                 max = studentManagers[i].getSoccer();
@@ -98,7 +98,7 @@ public class OptionManager {
     }
 
     public static void minSoccerStudent(StudentManager[] studentManagers) {
-        int min = studentManagers[0].getSoccer();
+        double min = studentManagers[0].getSoccer();
         for (int i = 1; i < studentManagers.length; i++) {
             if (min > studentManagers[i].getSoccer()) {
                 min = studentManagers[i].getSoccer();
@@ -166,7 +166,7 @@ public class OptionManager {
         System.out.println("Enter location student rank  ");
         String location = scanner.nextLine();
         System.out.println("Enter soccer student rank  ");
-        int soccer = Integer.parseInt(scanner.nextLine());
+        double soccer = Double.parseDouble(scanner.nextLine());
         addStudent[addStudent.length - 1] = new StudentManager(id,name,age,gender,location,soccer);
         for (StudentManager student : addStudent) {
             System.out.println(student);
@@ -201,14 +201,19 @@ public class OptionManager {
         System.out.println("Enter location student rank  "+id);
         String location = scanner.nextLine();
         System.out.println("Enter soccer student rank  "+id);
-        int soccer = Integer.parseInt(scanner.nextLine()+id);
-        for (int i = 0; i < studentManagers.length; i++) {
-            if(i==(id-1)){
-                studentManagers[i]= new StudentManager(id,name,age,gender,location,soccer);
+        double soccer = Double.parseDouble(scanner.nextLine());
+        if ((0<=id)||(id<=studentManagers.length)){
+            for (int i = 0; i < studentManagers.length; i++) {
+                if(i==(id-1)){
+                    studentManagers[i]= new StudentManager(id,name,age,gender,location,soccer);
+                }
             }
+            for (StudentManager student:studentManagers) {
+                System.out.println(student);
+            }
+        }else {
+            System.out.println("You have entered the wrong ID in the list. Please re-enter.");
         }
-        for (StudentManager student:studentManagers) {
-            System.out.println(student);
-        }
+
     }
 }

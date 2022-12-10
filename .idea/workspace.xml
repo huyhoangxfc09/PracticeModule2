@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shape/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StudentManager/OptionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentManager/OptionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentManager/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentManager/StudentManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +59,13 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionManager">
-    <configuration name="Demo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo.Demo" />
+  <component name="RunManager" selected="Application.Circle">
+    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shape.Circle" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MiniTest1.MainTest" />
-      <module name="PracticeModule2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MiniTest1.*" />
+          <option name="PATTERN" value="Shape.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shape.Shape" />
+      <module name="PracticeModule2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Shape.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Circle" />
+        <item itemvalue="Application.Shape" />
         <item itemvalue="Application.OptionManager" />
         <item itemvalue="Application.NewOptionManager" />
         <item itemvalue="Application.MainTest2" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.Demo (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +155,8 @@
       <workItem from="1670499092595" duration="6439000" />
       <workItem from="1670549210625" duration="11194000" />
       <workItem from="1670584055417" duration="659000" />
-      <workItem from="1670591893151" duration="13270000" />
+      <workItem from="1670591893151" duration="15897000" />
+      <workItem from="1670657434627" duration="998000" />
     </task>
     <servers />
   </component>

@@ -31,11 +31,7 @@ public class OptionManager {
                     minSoccerStudent(listStudentManager);
                     break;
                 case 4:
-                    StudentManager result = searchNameStudent(listStudentManager, scanner);
-                    if (result != null) {
-                        System.out.println("The information students are looking for is:\n" + result);
-                        break;
-                    }
+                   searchNameStudent(listStudentManager, scanner);
                 case 5:
                     searchGenderStudent(listStudentManager, scanner);
                     break;
@@ -121,18 +117,22 @@ public class OptionManager {
         }
     }
 
-    public static StudentManager searchNameStudent(StudentManager[] studentManagers, Scanner scanner) {
+    public static void searchNameStudent(StudentManager[] studentManagers, Scanner scanner) {
+        StudentManager[] searchNameStudent = new StudentManager[studentManagers.length];
         System.out.println("Enter the name you want to check:");
         String nameSearch = scanner.nextLine();
-        StudentManager result = null;
-        for (StudentManager student : studentManagers) {
-            if (student != null) {
-                if (student.getName().equals(nameSearch)) {
-                    result = student;
+        int index = 0;
+        for (StudentManager student:studentManagers) {
+            if(student != null){
+                if (student.getName().equals(nameSearch)){
+                    searchNameStudent[index]=student;
+                    index++;
                 }
             }
         }
-        return result;
+        for (StudentManager name:searchNameStudent) {
+            System.out.println(name);
+        }
     }
 
     public static void searchGenderStudent(StudentManager[] studentManagers, Scanner scanner) {

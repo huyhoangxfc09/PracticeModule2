@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterfaceComparator/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceComparator/CircleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceComparator/CircleComparatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceComparator/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +71,7 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CircleComparatorTest">
+  <component name="RunManager" selected="Application.InterfaceResizeable.Main">
     <configuration name="CircleComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterfaceComparator.CircleComparatorTest" />
       <module name="PracticeModule2" />
@@ -96,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnimalAndInterfaceEdible.Main" />
+    <configuration name="InterfaceResizeable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfaceResizeable.Main" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AnimalAndInterfaceEdible.Animal.*" />
+          <option name="PATTERN" value="InterfaceResizeable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PointAndMoveablePoint.MovePoint" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnimalAndInterfaceEdible.Main" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PointAndMoveablePoint.*" />
+          <option name="PATTERN" value="AnimalAndInterfaceEdible.Animal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceResizeable.Main" />
         <item itemvalue="Application.CircleComparatorTest" />
         <item itemvalue="Application.Comparable.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.OptionManager" />
-        <item itemvalue="Application.MovePoint" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +172,8 @@
       <workItem from="1670683362844" duration="6445000" />
       <workItem from="1670761879993" duration="3040000" />
       <workItem from="1670807409166" duration="15689000" />
-      <workItem from="1670851221736" duration="1714000" />
+      <workItem from="1670851221736" duration="2351000" />
+      <workItem from="1670893882673" duration="6732000" />
     </task>
     <servers />
   </component>

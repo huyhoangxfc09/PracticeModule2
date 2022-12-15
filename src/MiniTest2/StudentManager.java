@@ -1,4 +1,4 @@
-package StudentManager;
+package MiniTest2;
 
 public class StudentManager {
     private int id;

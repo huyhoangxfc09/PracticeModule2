@@ -15,7 +15,7 @@ public class OptionManager {
             System.out.println("5. Search gender student.");
             System.out.println("6. Add student.");
             System.out.println("7. Delete students by.");
-            System.out.println("8. Exit students by Id.");
+            System.out.println("8. Edit students by Id.");
             System.out.println("0. Exit.");
             System.out.println("Enter your selection: ");
             int choice = Integer.parseInt(scanner.nextLine());
@@ -43,7 +43,7 @@ public class OptionManager {
                     deleteByNameStudent(listStudentManager, scanner);
                     break;
                 case 8:
-                    exitById(listStudentManager, scanner);
+                    editById(listStudentManager, scanner);
                     break;
                 case 0:
                     System.exit(0);
@@ -79,16 +79,16 @@ public class OptionManager {
     }
 
     public static void maxSoccerStudent(StudentManager[] studentManagers) {
-        double max = studentManagers[0].getSoccer();
+        double max = studentManagers[0].getPoint();
         for (int i = 1; i < studentManagers.length; i++) {
-            if (max < studentManagers[i].getSoccer()) {
-                max = studentManagers[i].getSoccer();
+            if (max < studentManagers[i].getPoint()) {
+                max = studentManagers[i].getPoint();
             }
         }
         StudentManager[] maxSoccerStudent = new StudentManager[studentManagers.length];
         int index = 0;
         for (StudentManager element : studentManagers) {
-            if (element.getSoccer() == max) {
+            if (element.getPoint() == max) {
                 maxSoccerStudent[index] = element;
                 index++;
             }
@@ -99,16 +99,16 @@ public class OptionManager {
     }
 
     public static void minSoccerStudent(StudentManager[] studentManagers) {
-        double min = studentManagers[0].getSoccer();
+        double min = studentManagers[0].getPoint();
         for (int i = 1; i < studentManagers.length; i++) {
-            if (min > studentManagers[i].getSoccer()) {
-                min = studentManagers[i].getSoccer();
+            if (min > studentManagers[i].getPoint()) {
+                min = studentManagers[i].getPoint();
             }
         }
         StudentManager[] minSoccerStudent = new StudentManager[studentManagers.length];
         int index = 0;
         for (StudentManager element : studentManagers) {
-            if (element.getSoccer() == min) {
+            if (element.getPoint() == min) {
                 minSoccerStudent[index] = element;
                 index++;
             }
@@ -171,29 +171,38 @@ public class OptionManager {
         System.out.println("Enter soccer student rank  ");
         double soccer = Double.parseDouble(scanner.nextLine());
         addStudent[addStudent.length - 1] = new StudentManager(id, name, age, gender, location, soccer);
-        for (StudentManager student : addStudent) {
-            System.out.println(student);
+        for (int i = 0; i < addStudent.length; i++) {
+            addStudent[i]= new StudentManager(id, name, age, gender, location, soccer);
         }
+
     }
 
     public static void deleteByNameStudent(StudentManager[] studentManagers, Scanner scanner) {
         StudentManager[] deleteStudent = new StudentManager[studentManagers.length - 1];
         System.out.println("Enter the name to delete:");
         String deleteName = scanner.nextLine();
+        boolean check = false;
         for (int i = 0; i < studentManagers.length; i++) {
             if (studentManagers[i].getName().equals(deleteName)) {
                 for (int j = i; j < studentManagers.length - 1; j++) {
                     studentManagers[j] = studentManagers[j + 1];
                 }
+                check = true;
             }
         }
-        System.arraycopy(studentManagers, 0, deleteStudent, 0, deleteStudent.length);
-        for (StudentManager student : deleteStudent) {
-            System.out.println(student);
+        if (!check){
+            for (StudentManager student: studentManagers) {
+                System.out.println(student);
+            }
+        }else {
+            System.arraycopy(studentManagers, 0, deleteStudent, 0, deleteStudent.length);
+            for (StudentManager element : deleteStudent) {
+                System.out.println(element);
+            }
         }
     }
 
-    public static void exitById(StudentManager[] studentManagers, Scanner scanner) {
+    public static void editById(StudentManager[] studentManagers, Scanner scanner) {
         System.out.println("Enter Id exit:");
         int id = Integer.parseInt(scanner.nextLine());
         System.out.println("Enter name student rank  " + id);

@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Resizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceResizeable/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceColorable/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceColorable/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceColorable/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfaceColorable/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest2/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniTest2/StudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentManager/OptionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentManager/OptionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentManager/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentManager/StudentManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceResizeable.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CircleComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterfaceComparator.CircleComparatorTest" />
       <module name="PracticeModule2" />
@@ -85,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Comparable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Comparable.Main" />
+    <configuration name="InterfaceColorable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfaceColorable.Main" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Comparable.*" />
+          <option name="PATTERN" value="InterfaceColorable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +115,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnimalAndInterfaceEdible.Main" />
+      <option name="MAIN_CLASS_NAME" value="MiniTest2.Main" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AnimalAndInterfaceEdible.Animal.*" />
+          <option name="PATTERN" value="MiniTest2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfaceResizeable.Main" />
-        <item itemvalue="Application.CircleComparatorTest" />
-        <item itemvalue="Application.Comparable.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.OptionManager" />
+        <item itemvalue="Application.InterfaceColorable.Main" />
+        <item itemvalue="Application.InterfaceResizeable.Main" />
+        <item itemvalue="Application.CircleComparatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +176,11 @@
       <workItem from="1670761879993" duration="3040000" />
       <workItem from="1670807409166" duration="15689000" />
       <workItem from="1670851221736" duration="2351000" />
-      <workItem from="1670893882673" duration="6732000" />
+      <workItem from="1670893882673" duration="18341000" />
+      <workItem from="1670979721872" duration="1007000" />
+      <workItem from="1670980747660" duration="1248000" />
+      <workItem from="1670982019795" duration="11122000" />
+      <workItem from="1671005334207" duration="1381000" />
     </task>
     <servers />
   </component>

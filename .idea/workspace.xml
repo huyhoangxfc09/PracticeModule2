@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DSA/List/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/List/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/MyList/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSA/MyList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/ReverseArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.ReverseArray">
     <configuration name="DSA.List.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA.List.Main" />
       <module name="PracticeModule2" />
@@ -110,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StudentManager.OptionManager" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackAndQueue.ReverseArray" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StudentManager.*" />
+          <option name="PATTERN" value="StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.DSA.List.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.OptionManager" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +176,7 @@
       <workItem from="1671005334207" duration="1381000" />
       <workItem from="1671068810333" duration="3724000" />
       <workItem from="1671092790545" duration="3930000" />
+      <workItem from="1671155894759" duration="6456000" />
     </task>
     <servers />
   </component>

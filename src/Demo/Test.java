@@ -4,24 +4,22 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-       Scanner scanner =new Scanner(System.in);
-       Stack<Integer> stackTest = new Stack<>();
-        System.out.println("Nhập số phần tử của mảng");
-        int n = scanner.nextInt();
-        for (int i = 0; i < n; i++) {
-            System.out.println("Nhập phần tử thứ "+(i+1));
-            int elment = scanner.nextInt();
-            stackTest.push(elment);
+        System.out.print("Nhập vào chuỗi cần kiểm tra:");
+        Scanner in=new Scanner(System.in);
+        String inputString = in.nextLine();
+        Queue queue = new LinkedList();
+        for (int i = inputString.length()-1; i >=0; i--) {
+            queue.add(inputString.charAt(i));
         }
-        System.out.println();
-        System.out.println("Mảng trước khi đảo ngược:");
-        for (Integer e :stackTest) {
-            System.out.print(e+" ");
+        System.out.println(inputString);
+        String reverseString = "";
+        while (!queue.isEmpty()) {
+            reverseString = reverseString+queue.remove();
         }
-        System.out.println();
-        System.out.println("Mảng sau khi đảo ngược:");
-        for (int i = 0; i < n; i++) {
-            System.out.print(stackTest.pop()+" ");
-        }
+        System.out.println(reverseString);
+        if (inputString.equals(reverseString))
+            System.out.println("Đây là chuỗi đối xứng.");
+        else
+            System.out.println("Đây không phải là chuỗi đối xứng.");
     }
 }

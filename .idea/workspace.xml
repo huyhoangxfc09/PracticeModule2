@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/CharMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BubbleSort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BubbleSort/BubbleSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelectionSort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManagement/Classroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManagement/ClassroomManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManagement/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManagement/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManagement/StudentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Test.java" afterDir="false" />
     </list>
@@ -27,6 +37,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/StudentManagement/StudentManager.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.8.0_351/src.zip!/java/lang/Object.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/D/Java/PracticeModule2/src/AnimalAndInterfaceEdible/Animal&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/D/Java/PracticeModule2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\D\Java\PracticeModule2\src\AnimalAndInterfaceEdible\Animal" />
@@ -67,13 +78,13 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseArray">
-    <configuration name="DSA.List.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.List.Main" />
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort.BubbleSort" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.List.*" />
+          <option name="PATTERN" value="BubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MiniTest2.Main" />
+    <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort.BubbleSortByStep" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MiniTest2.*" />
+          <option name="PATTERN" value="BubbleSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSA.MyList.MainTest" />
+    <configuration name="CharMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.CharMax" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DSA.MyList.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackAndQueue.ReverseArray" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SelectionSort.SelectionSort" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StackAndQueue.*" />
+          <option name="PATTERN" value="SelectionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,25 +132,19 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo.Test" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="PracticeModule2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSortByStep" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.DSA.List.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CharMax" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +181,15 @@
       <workItem from="1671005334207" duration="1381000" />
       <workItem from="1671068810333" duration="3724000" />
       <workItem from="1671092790545" duration="3930000" />
-      <workItem from="1671155894759" duration="6456000" />
+      <workItem from="1671155894759" duration="7124000" />
+      <workItem from="1671177831307" duration="5989000" />
+      <workItem from="1671265025527" duration="13548000" />
+      <workItem from="1671292018498" duration="37000" />
+      <workItem from="1671413360649" duration="12114000" />
+      <workItem from="1671437046826" duration="7762000" />
+      <workItem from="1671454338144" duration="7034000" />
+      <workItem from="1671500311158" duration="9470000" />
+      <workItem from="1671585006822" duration="1710000" />
     </task>
     <servers />
   </component>
@@ -194,6 +207,11 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/CharMax.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

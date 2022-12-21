@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/CharMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BubbleSort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BubbleSort/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelectionSort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManagement/Classroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManagement/ClassroomManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManagement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManagement/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManagement/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InsertionSort/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +67,7 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSort.BubbleSort" />
       <module name="PracticeModule2" />
@@ -105,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.CharMax" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertionSort.InsertionSort" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="InsertionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSortByStep" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.CharMax" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +178,7 @@
       <workItem from="1671437046826" duration="7762000" />
       <workItem from="1671454338144" duration="7034000" />
       <workItem from="1671500311158" duration="9470000" />
-      <workItem from="1671585006822" duration="1710000" />
+      <workItem from="1671585006822" duration="11846000" />
     </task>
     <servers />
   </component>

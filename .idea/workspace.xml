@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46db19f4-fb74-4c83-a64b-4555a09e7a21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MinTest3/Classroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinTest3/ClassroomManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinTest3/CrudManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinTest3/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinTest3/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TryCatch/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TryCatch/ArrayIndexOutOfBoundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TryCatch/CalculationExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +70,7 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayIndexOutOfBoundsException">
+  <component name="RunManager" selected="Application.CalculationExample">
     <configuration name="ArrayIndexOutOfBoundsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TryCatch.ArrayIndexOutOfBoundsException" />
       <module name="PracticeModule2" />
@@ -90,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BubbleSort.BubbleSort" />
+    <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort.BubbleSortByStep" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BubbleSort.BubbleSortByStep" />
+    <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TryCatch.CalculationExample" />
       <module name="PracticeModule2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BubbleSort.*" />
+          <option name="PATTERN" value="TryCatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculationExample" />
         <item itemvalue="Application.ArrayIndexOutOfBoundsException" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSortByStep" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +188,7 @@
       <workItem from="1671454338144" duration="7034000" />
       <workItem from="1671500311158" duration="9470000" />
       <workItem from="1671585006822" duration="19024000" />
-      <workItem from="1671675263758" duration="1036000" />
+      <workItem from="1671675263758" duration="2307000" />
     </task>
     <servers />
   </component>

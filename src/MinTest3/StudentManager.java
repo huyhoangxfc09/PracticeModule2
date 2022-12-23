@@ -96,4 +96,17 @@ public class StudentManager implements CrudManager<Student>{
             return choiceClassroom(scanner);
         }
     }
+    public void displayStudentById(Scanner scanner) {
+        Student student = findById(scanner);
+        if (student != null) {
+            title();
+            student.display();
+        } else {
+            System.out.println("Not exist student have this id!");
+        }
+    }
+    private void title() {
+        System.out.printf("%-15s%-15s%-15s%-15s%-15s%s",
+                "ID", "NAME", "AGE", "GENDER", "ADDRESS", "CLASSROOM\n");
+    }
 }

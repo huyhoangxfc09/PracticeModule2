@@ -1,27 +1,38 @@
+import java.io.*;
 
 public class Test {
     public static void main(String[] args) {
-        int[] array = {5, 2, 3, 6, 9, 8, 7, 1, 4, 0};
-        selectionSort(array);
-        for (int element : array) {
-            System.out.print(element+" ");
+        File file = new File("C:\\D\\Java\\PracticeModule2\\src\\Huy");
+        System.out.println("File exits??? " + file.exists());
+        File dir = new File("C:\\D\\Java\\PracticeModule2\\src\\HuyHoang");
+        dir.mkdirs();
+        File dir1 = new File("C:\\D\\Java\\PracticeModule2\\src\\HuyHoang\\Demo.txt");
+        try {
+            dir1.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-    }
-
-    public static void selectionSort(int[] array) {
-        int indexMin;
-        for (int i = 0; i < array.length; i++) {
-            indexMin = i;
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[j] < array[indexMin]) {
-                    indexMin = j;
-                }
-                if (indexMin != i) {
-                    int tempt = array[indexMin];
-                    array[indexMin] = array[i];
-                    array[i] = tempt;
-                }
+        try {
+            FileWriter fileWriter = new FileWriter("C:\\D\\Java\\PracticeModule2\\src\\HuyHoang\\Demo.txt",false);
+            fileWriter.write("Tran Huy Hoang\n");
+            fileWriter.write("23/07/1995\n");
+            fileWriter.write("Hung Ha\n");
+            fileWriter.write("020920\n");
+            fileWriter.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        try {
+            FileReader fileReader = new FileReader(dir1);
+            BufferedReader reader = new BufferedReader(fileReader);
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
             }
+            reader.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+        System.out.println(dir1.getAbsolutePath());
     }
 }

@@ -1,8 +1,6 @@
 package HuyHoang;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 public class Main {
@@ -15,12 +13,23 @@ public class Main {
             throw new RuntimeException(e);
         }
         try {
-            FileWriter fileWriter = new FileWriter("C:\\D\\Java\\PracticeModule2\\src\\HuyHoang\\Test.txt",true);
-            int input = Integer.parseInt(scanner.nextLine());
-            fileWriter.write(input+"\n");
-            fileWriter.write(input+"\n");
-            fileWriter.write(input+"\n");
+            FileWriter fileWriter = new FileWriter("C:\\D\\Java\\PracticeModule2\\src\\HuyHoang\\Test.txt",false);
+            fileWriter.write("Huy Hoang\n");
+            fileWriter.write("23/07/1995\n");
+            fileWriter.write("Hung Ha\n");
+            fileWriter.write("020920\n");
             fileWriter.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        try {
+            FileReader fileReader = new FileReader("C:\\D\\Java\\PracticeModule2\\src\\HuyHoang\\Test.txt");
+            BufferedReader reader = new BufferedReader(fileReader);
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+            reader.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
